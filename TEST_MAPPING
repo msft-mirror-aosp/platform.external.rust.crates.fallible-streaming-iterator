@@ -2,10 +2,6 @@
 {
   "presubmit": [
     {
-      "host": true,
-      "name": "fallible-streaming-iterator_host_test_src_lib"
-    },
-    {
       "name": "fallible-streaming-iterator_device_test_src_lib"
     }
   ]
