@@ -2,8 +2,13 @@
 {
   "presubmit": [
     {
-      "name": "fallible-streaming-iterator_device_test_src_lib"
+      "name": "keystore2_test"
     },
+    {
+      "name": "legacykeystore_test"
+    }
+  ],
+  "presubmit-rust": [
     {
       "name": "keystore2_test"
     },
