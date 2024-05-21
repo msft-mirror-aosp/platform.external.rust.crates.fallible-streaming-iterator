@@ -47,7 +47,7 @@ rust_library {
     crate_name: "fallible_streaming_iterator",
     cargo_env_compat: true,
     cargo_pkg_version: "0.1.9",
-    srcs: ["src/lib.rs"],
+    crate_root: "src/lib.rs",
     edition: "2015",
     features: ["std"],
     apex_available: [
